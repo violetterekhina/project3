@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>BerryScience</title>
+
+        <link rel="stylesheet" href="raspberry.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@500;600;700&family=Lato:wght@400;700&family=Montserrat:wght@700&family=Noto+Sans+JP:wght@300;400;700&family=Poiret+One&family=Syncopate&display=swap" rel="stylesheet">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+        
+        
+    </head>
+    
+    
+<header>
+    <a href="index.html"><img src="SVG/logo_2.svg" class="logo"></a>
+    <nav>
+    
+   <a href="index.html"><img src="SVG/home.svg" class="icon"></a>
+    <div class="dropdown">       
+    <button class="dropbtn">recipes</button>
+    <div class="dropdown-content">
+    <a href="strawrecipe.html">strawberry oatmeal bars</a>
+    <a href="bluerecipe.html">blueberry muffins</a>
+    <a href="cherryrecipe.html">cherry pie</a>
+    <a href="rasprecipe.html">raspberry honey cake</a>
+    <a href="cranrecipe.html">cranberry cookies</a>
+        </div>
+    </div>
+        
+       <div class="dropdown"> 
+    <button class="dropbtn">nutrition facts</button>
+    <div class="dropdown-content1">
+    <a href="strawberry.html">strawberry</a>
+    <a href="blueberry.html">blueberry</a>
+    <a href="cherry.html">cherry</a>
+    <a href="raspberry.html">raspberry</a>
+    <a href="cranberry.html">cranberry</a>
+    
+    </div>
+    </div>
+    </nav>
+</header>
+    
+<body>    
+   
+<div class="box">
+    
+    
+    <div class="intro">
+            <h1>Raspberry</h1>
+        <h2>
+            Raspberries contain antioxidant polyphenols called ellagitannins, which can help reduce oxidative stress. Studies have associated black raspberries with reduced risk for heart disease, such as high blood pressure and blood cholesterol. Other studies have shown that black raspberries may reduce inflammation in people with metabolic syndrome.</h2>
+    </div>
+    
+    <div class="cup"><h3>In 1 cup of raspberries...</h3></div>
+    
+    
+<div class="nutrients">
+    <div class="nutrtext"><h4>Fiber</h4>
+        <h5>8g or 31% of DV*</h5>
+        
+        <span class="more">
+        <p>Lowers cholesterol levels</p>
+        <p>Helps control blood sugar levels</p>
+        <p>Promotes digestion and normalizes and maintains bowel health</p>
+        <p>Keeps you feeling full longer</p>
+        <p>Prolongs life</p></span>
+        <button class="read">read more</button>
+    </div>
+    
+    <div class="nutrtext"><h4>
+        Vitamin C</h4>
+        <h5>36% of DV*</h5>
+        
+        <span class="more">
+        <p>Boosts immunity</p>
+        <p>Protects cells and keeps them healthy</p>
+        <p>Maintains healthy skin, blood vessels, bones and cartilage</p>
+        <p>Accelerates wound healing</p>
+        <p>Reduce risk of chronic disease</p>
+        <p>Helps reduce stress</p></span>
+        <button class="read">read more</button>
+    </div>
+    
+    <div class="nutrtext">
+        <h4>Manganese</h4>
+        <h5>36% of DV*</h5>
+        
+        <span class="more">
+        <p>Supports bone mineral density</p>
+        <p>Reduces PMS symptoms</p>
+        <p>Contributes to Good Thyroid Health</p>
+        <p>Necessary for normal brain and nerve function.</p>
+        <p>Increases metabolism</p></span>
+        <button class="read">read more</button>
+    </div>
+    <script>
+      $(document).ready(function(){
+          $(".read").click(function(){
+              $(this).prev().toggle();
+              $(this).siblings('.dots').
+              toggle();
+              if($(this).text()=='read more'){
+                  $(this).text('read less');
+              }
+              else{
+                  $(this).text('read more');
+              }
+          });
+      });
+    </script>
+    
+    
+    <div class="extrainfo">
+        <div class="dv"><h5>*DV = recommended daily intake value
+            </h5>
+    </div>
+    
+    <div class="learnmore">Learn more about the dietary benefits of raspberries <a href="https://www.webmd.com/diet/health-benefits-raspberries" class="site">HERE</a>
+    </div>
+    </div>
+    
+    </div>
+    
+
+    
+    
+    
+    
+    
+    <div class="bottom">
+        <img src="SVG/honeycake.svg" class="recipeicon">
+        <button1><a href="rasprecipe.html">Raspberry Honey Cake Recipe</a></button1>
+    
+    </div>
+      
+</div> 
+<footer>
+    
+     <a href="index.html"><img src="svg/logo_2.svg" class="logo1"></a><a href="index.html"><img src="svg/home.svg" class="icon1"></a> <a href="contact.html"><img src="SVG/contact.svg" class="contact"></a> <h6>© 2023 BerryScience</h6>
+    
+</footer>
+
+
+     
+    
+</body>
+</html>

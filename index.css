@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: Poiret One;
+    font-size: 100%;
+    background-image: url(images/cranberry.jpg);
+    background-size: cover;
+    margin: 5px 226px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+/*
+#F76565
+*/
+
+.wrapper {
+    background-color: #a1061e;
+    width: 1000px;
+    height: 2130px;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+nav {
+    text-align: center;
+    float: right;
+    margin-left: 0px;
+    margin-top: 12px;
+
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+header {
+    padding-bottom: 130px;
+    background-color: #a1061e;
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    line-height: 85px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 45px;
+}
+
+h2 {
+    color: white;
+    font-size: 16px;
+    width: 440px;
+    letter-spacing: 0.08em;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 290px;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+.dropbtn {
+    background-color: #a1061e;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    font-family: Poiret One;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: white;
+    min-width: 160px;
+    z-index: 2;
+    text-align: left;
+    margin-left: -25px;
+    font-size: 10px;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    color: white;
+    min-width: 160px;
+    z-index: 2;
+    text-align: left;
+    margin-left: -8px;
+    font-size: 10px;
+}
+
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 6px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content1 a{
+    color: white;
+    padding: 12px 6px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {color: maroon; background-color: #C54343;}
+.dropdown-content1 a:hover {color: maroon; background-color: #C54343;}
+
+.dropdown:hover .dropdown-content {display: block; background-color: #C54343;}
+.dropdown:hover .dropdown-content1 {display: block; background-color: #C54343;}
+
+.dropdown:hover .drdopbtn {background-color: #C54343;}
+
+.logo {
+    width: 80px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.icon {
+    width: 25px;
+}
+
+.icon1 {
+    width: 25px;
+    margin-top: 5px;
+}
+
+.contact {
+    width: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    display: inline-grid;
+    grid-template-columns:  190px 35px 1180px;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+    margin-left: 22px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 0px;
+
+}
+
+.logo1 {
+    width: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+h6 {
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    margin-top: -7px;
+    padding-top: 20px;
+}
+
+.berrycontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 720px;   
+}
+
+
+.berries {
+    transition: .2s;
+}
+
+.berries:hover {
+    transform: scale(1.7);
+    opacity: 0.75;
+}
+
+.box {
+    background-color: white;
+    padding: 25px;
+    border-style: dashed;
+    border-color: #a1061e;
+    height: 1410px;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #a1061e;
+}
+h4 {
+    font-family: 'noto sans jp';
+    font-size: 14.5px;
+    line-height: 22.3px;
+    color: maroon;
+    font-weight: 400;
+    max-width: 420px;
+    margin-left: 285px;
+    text-align: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 310px 310px;
+    grid-template-rows: 210px 166px 166px 154px;
+    grid-column-gap: 78px;
+    margin-top: 91px;
+    margin-left: 126px;
+    text-align: center;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+.desserts {
+    display:inline-block;
+    transition: .2s;
+}
+
+.desserts:hover {
+    transform: scale(1.15);
+}
+
+h5 {
+    font-size:18px;
+    color: gray;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+}
+.lastrow {
+    margin-left: 200px;
+}

@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: Poiret One;
+    font-size: 100%;
+    background-image: url(images/cranberry.jpg);
+    background-size: cover;
+    margin: 5px 226px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+/*
+#F76565
+*/
+
+.wrapper {
+    background-color: #a1061e;
+    width: 1000px;
+    height: 585px;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+nav {
+    text-align: center;
+    float: right;
+    margin-left: 0px;
+    margin-top: 12px;
+
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+header {
+    padding-bottom: 130px;
+    background-color: #a1061e;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: -45px;
+}
+
+h2 {
+    color: white;
+    font-size: 16px;
+    width: 440px;
+    letter-spacing: 0.08em;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 290px;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+.dropbtn {
+    background-color: #a1061e;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    font-family: Poiret One;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: white;
+    min-width: 160px;
+    z-index: 2;
+    text-align: left;
+    margin-left: -25px;
+    font-size: 10px;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    color: white;
+    min-width: 160px;
+    z-index: 2;
+    text-align: left;
+    margin-left: -8px;
+    font-size: 10px;
+}
+
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 6px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content1 a{
+    color: white;
+    padding: 12px 6px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {color: maroon; background-color: #C54343;}
+.dropdown-content1 a:hover {color: maroon; background-color: #C54343;}
+
+.dropdown:hover .dropdown-content {display: block; background-color: #C54343;}
+.dropdown:hover .dropdown-content1 {display: block; background-color: #C54343;}
+
+.dropdown:hover .drdopbtn {background-color: #C54343;}
+
+.logo {
+    width: 80px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.icon {
+    width: 25px;
+}
+
+.icon1 {
+    width: 25px;
+    margin-top: 5px;
+}
+
+.contact {
+    width: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    display: inline-grid;
+    grid-template-columns:  190px 89px 86px 860px;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+    margin-left: 22px;
+}
+
+.logo1 {
+    width: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+h6 {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    padding-top: 40px;
+
+}
+
+
+
+
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #a1061e;
+}
+h4 {
+    font-family: 'noto sans jp';
+    font-size: 14.5px;
+    line-height: 22.3px;
+    color: maroon;
+    font-weight: 400;
+    max-width: 420px;
+    margin-left: 285px;
+    text-align: center;
+}
+
+
+h5 {
+    font-size:18px;
+    color: gray;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 32px 84px 178px;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+textarea {
+    max-width: 360px;
+     margin-left: 326px;
+    border-radius: 1em;
+    border-color: #F8D9DE;
+    border: 2px;
+}
+
+input{
+    max-width: 200px;
+    margin-left: 455px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2em;
+    background-color: #F8D9DE;
+    font-family: 'Poiret One';
+    font-size: 20px;
+    border: none;
+}

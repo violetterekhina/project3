@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    font-family: Poiret One;
+}
+
+body {
+    background-image: url(images/mirror_strawberry2%20-%20Copy.jpeg);
+    margin-top: 0;
+    margin-bottom: 0;
+    background-size: cover;
+    font-family: poiret one;
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header {
+    background-color: #cc372d;
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    margin-top: 0px;
+}
+
+nav {
+    text-align: center;
+    float: right;
+    margin-right: 20px;
+    margin-top: -2px;
+
+}
+
+nav a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poiret One regular;
+}
+
+.image {
+    width: 250px;
+    height: 320px;
+    margin-left: 50px;
+}
+
+.intro {
+    margin-left: 510px;
+    padding-top: 200px;
+
+    
+}
+
+h1 {
+    color: #cc372d;
+    font-size: 110px;
+}
+h2 {
+    max-width: 300px;
+    color: #cc372d;
+    max-width: 336px;
+    margin-left: 50px;
+    font-size: 14.5px;
+    font-family: 'noto sans jp';
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: -30px;
+
+}
+
+h3 {
+    font-family: 'noto sans jp';
+    color: #cc372d;
+    letter-spacing: 0.03em;
+}
+h4 {
+    font-family: 'Lato';
+    color: #cc372d;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+h5{
+    font-family: 'Lato';
+    color: #FF6857;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+
+}
+
+h6 {
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    margin-top: -7px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'noto sans jp';
+    font-size: 12px;
+    max-width: 170px;
+    line-height: 22.3px;
+    color: maroon;
+    display: list-item;
+}
+
+.cup {
+        margin-left: 683px;
+    margin-top: 317px;
+}
+.box {
+    width: 1196px;
+    height: 2289px;
+    background-image: url(images/nutrientsstraw-08.png);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: -50px;
+
+}
+
+.nutrients {
+    margin-left: 500px;
+    margin-top: 360px;
+    display: grid;
+    grid-template-columns: 230px 230px 200px;
+    height: 500px;
+    
+    
+
+}
+
+.read {
+    display: block;
+    border: none;
+    cursor: pointer;
+    color: maroon;
+    border-radius: 2em;
+    border: none;
+    font-family: 'Poiret One';
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.2em;
+    margin-left: -5px;
+    transition: .2s;
+    background-color: #FBE2DF;
+}
+
+.read:hover {
+    transform: scale(1.05); background-color: white; }
+}
+
+.nutrtext {
+    display: inline-block;
+    max-width: 300px;
+    text-align: center;
+}
+
+.dots{
+    font-family: 'Lato';
+    color: #FF6857;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    max-width: 400px;
+    margin-top: -10px;
+}
+
+.more {
+    display: none;
+}
+
+
+.berries {
+    background-color: white;
+}
+
+.recipeicon {
+    width: 220px;
+}
+
+.icon1 {
+    width: 25px;
+    margin-top: 5px;
+}
+
+.contact {
+    width: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    display: inline-grid;
+    grid-template-columns:  190px 89px 86px 1200px;
+    text-align: center;
+    color: white;
+    font-size: .8em;
+    background-color: #cc372d;
+    padding-top: 21px;
+    padding-left: 45px;
+    height: 59px;
+    width: 1151px;
+    margin-bottom: 0px;
+}
+
+
+.icon {
+    width: 25px;
+}
+
+
+.berry {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size-adjust: auto;
+    color: #FF6857;
+    font-weight: 700;
+}
+
+
+
+.text {
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    color: white;
+}
+.dv {
+    margin-left: 1px;
+    margin-top: ;
+    margin-bottom: ;
+    text-align: center;
+}
+
+.learnmore {
+    max-width: 400px;
+    line-height: 20px;
+    margin-left: -5px;
+    text-align: center;
+}
+
+.extrainfo {
+    display: flex;
+    flex-direction: column;
+}
+.dropbtn {
+    background-color: #cc372d;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    font-family: Poiret One;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: white;
+    min-width: 160px;
+    z-index: 2;
+    text-align: left;
+    margin-left: -25px;
+    font-size: 10px;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    color: white;
+    min-width: 160px;
+    z-index: 2;
+    text-align: left;
+    margin-left: -8px;
+    font-size: 10px;
+}
+
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 6px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content1 a{
+    color: white;
+    padding: 12px 6px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {color: maroon; background-color: #cc372d;}
+.dropdown-content1 a:hover {color: maroon; background-color: #cc372d;}
+
+.dropdown:hover .dropdown-content {display: block; background-color: #cc372d;}
+.dropdown:hover .dropdown-content1 {display: block; background-color: #cc372d;}
+
+.dropdown:hover .drdopbtn:hover {background-color: #cc372d;}
+
+.logo {
+    width: 80px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.logo1 {
+    width: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+
+.bottom {
+    margin-left: 30px;
+    margin-top: 68px;
+    display: grid;
+    grid-template-rows: 255px 85px;
+    justify-items: center;
+}
+button1 {
+    padding: 1.5em;
+    border-radius: 2em;
+    font-family: Poiret One;
+    font-size: 20px;
+    border-color: gray;
+    background-color: white;
+    transition: .2s;
+    border: ;
+    background-color: #FBE2DF;
+}
+
+button1:hover {
+    transform: scale(1.05); background-color: white; }
